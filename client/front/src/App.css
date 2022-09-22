@@ -1,38 +1,75 @@
-.App {
+.search_filter_div{
+   display: flex;
+   justify-content: center;
+   gap:10px;
+}
+.jobdata_Container{
+  display: grid; 
+  grid-template-columns: 300px 300px 300px; 
+  gap: 20px; 
+  justify-content: center; 
+  margin:20px 0px;
+}
+.homeTitle{
   text-align: center;
+  font-size: 30px;
+  color: rgb(42, 165, 118);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbarHOme>a{
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.eachJobBox{
+  min-height:200px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  padding: 15px;
+  line-height: 1;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.jobdata_Container>a{
+  text-decoration: none;
+  color:black
+}
+.JobDetailBox{
+  width:70%;
+  height:auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin:auto;
+  padding:20px;
+  margin-top:20px;
+  margin-bottom:10px;
+  border-radius:10px;
+}
+.JobDetailBoxFlex{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
-
-.App-link {
-  color: #61dafb;
+a{
+  text-decoration: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ApplyContainer{
+  height:auto;
+  width:300px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin:auto;
+  padding:20px;
+  line-height:2;
+  border-radius:10px;
+}
+.ApplyContainerinput{
+  height:30px;
+  width:100%;
+  margin:5px 0px;
+}
+.radio{
+  margin-right:15px
+}
+.submitbutton{
+  height:30px;
+  width:90px;
+  border:none;
+  background-color: rgb(47,125,50);
+  color:white;
+  align-self: center;
 }

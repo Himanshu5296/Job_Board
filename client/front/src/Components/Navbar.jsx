@@ -3,6 +3,7 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -12,7 +13,7 @@ const Navbar = () => {
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           Jobs.com
         </Typography>
-        <div>Home</div>
+        <div className='navbarHOme'><Link to="/">Home</Link></div>
       </Toolbar>
     </AppBar>
   </Box>
